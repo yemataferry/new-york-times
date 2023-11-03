@@ -3,6 +3,7 @@
   box-sizing: border-box;
   padding: 0;
 }
+
 main {
   margin: 0 50px 50px;
 }
@@ -55,10 +56,6 @@ figcaption {
   margin-left: 30px;
 }
 
-.b2 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .c ul {
   display: flex;
   flex-direction: row;
@@ -74,11 +71,10 @@ figcaption {
 
 .d1 {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   justify-self: left;
   padding: 25px;
   justify-content: left;
-  flex-wrap: wrap;
 }
 
 .sec1 nav {
@@ -86,10 +82,10 @@ figcaption {
 }
 
 .d {
-    display: flex;
-    margin-top: none;
-    border-bottom: 1px solid lightgray;
-    padding-bottom: 10px;
+  display: flex;
+  margin-top: none;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
 }
 
 .dx {
@@ -133,8 +129,6 @@ figcaption {
 .ec {
   display: grid;
   grid-template-columns: 15vw 1fr;
-
-  
 }
 
 .ed {
@@ -148,13 +142,13 @@ figcaption {
   margin-bottom: 10px;
   border-bottom: 1px solid black;
 }
+
 .f2i {
   display: flex;
   flex-direction: column;
   text-align: left;
   row-gap: 0;
   border-right: 1px solid lightgray;
-
 }
 
 .f2ii {
@@ -163,6 +157,7 @@ figcaption {
   text-align: left;
   row-gap: 0;
 }
+
 .f2 {
   display: flex;
   padding-top: 5px;
@@ -267,7 +262,7 @@ figcaption {
   padding-left: 30px;
 }
 
-.big_fig {
+.big-fig {
   padding: 15px;
 }
 
@@ -286,7 +281,6 @@ figcaption {
 .j {
   display: flex;
   flex-direction: column;
-  /* margin-right: 30px; */
   border-left: 1px solid lightgray;
 }
 
@@ -295,7 +289,7 @@ figcaption {
   flex-direction: row;
 }
 
-.main_sec {
+.main-sec {
   margin-top: 4px;
   column-gap: normal;
 }
@@ -385,7 +379,6 @@ figcaption {
 .sec3 {
   display: flex;
   padding: 20px;
-  /* border-top: 1px solid lightgray; */
 }
 
 .ka {
