@@ -186,11 +186,13 @@ figcaption {
 .sec1 {
   display: flex;
 }
+
 .f2i figure {
   grid-area: auto;
   margin-left: 13px;
   padding-bottom: none;
 }
+
 .f2ii figure {
   margin-left: 10px;
 }
@@ -369,7 +371,7 @@ figcaption {
   padding-left: 40px;
 }
 
-.k_r {
+.k-r {
   display: flex;
   flex-direction: column;
   padding: 10px;
