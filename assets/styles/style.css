@@ -1,6 +1,5 @@
-
 @font-face {
-  font-family: "EngraversOldEnglishBold";
+  font-family: EngraversOldEnglishBold;
   src: url("fonts/Engravers\'\ Old\ English\ Bold.otf");
 }
 
@@ -70,7 +69,7 @@ figcaption {
 }
 
 .b2 {
-  font-family: 'EngraversOldEnglishBold';
+  font-family: EngraversOldEnglishBold, sans-serif;
   font-size: 25px;
   font-stretch: condensed;
 }
@@ -947,7 +946,7 @@ figcaption {
   height: 8vh;
   margin-left: 5%;
   padding: none;
-  font-family: 'EngraversOldEnglishBold';
+  font-family: EngraversOldEnglishBold, sans-serif;
   font-stretch: condensed;
   font-size: 20px;
   padding-top: 5px;
