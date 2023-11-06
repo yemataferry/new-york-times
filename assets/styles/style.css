@@ -55,6 +55,7 @@ figcaption {
   border-color: #236677a1;
   height: 30px;
   font-size: 12px;
+  border-radius: 3px;
 }
 
 .b {
